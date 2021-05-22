@@ -12,10 +12,55 @@ html, body {
   height: 100%;
   width: auto;
   overflow: initial;
+  min-height: 100%;
 }
 
 a {
   text-decoration: none;
+}
+
+/* ============================= Animation Section =============================  */
+
+.slidein{
+
+  animation-duration: 4s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  0% {
+      opacity: 0;
+      transform: translateX(200px);
+  }
+
+  80% {
+      transform: translateX(-10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+.slidein1{
+  animation-duration: 4s;
+  animation-name: slidein1;
+}
+
+@keyframes slidein1 {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translateX(10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
 }
 
 /* ============================= Border Style Section =============================  */
@@ -68,7 +113,7 @@ a {
 #navbarNav {
   text-align: center;
   width: auto;
-  padding: 0 25%;
+  padding: 0 22%;
 }
 
 #nav-link{
@@ -103,7 +148,7 @@ a {
   background-size: cover;
   /* Resize the background image to cover the entire container */
   padding: 10% 29%;
-  height: 100%;;
+  height: 100%;
 }
 
 #intro-hrstyle-1{
@@ -111,10 +156,12 @@ a {
 }
 
 .intro-header {
-  font-family: 'Bree Serif', sans-serif;
+  /* font-family: 'Bree Serif', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
   font-size: 3.6rem;
   color: #fff;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .intro-header2 {
@@ -144,6 +191,9 @@ a {
 
 
 /* Intro button */
+
+
+
 .three-column {
   width: 100%;
 }
@@ -181,4 +231,100 @@ a {
 .btnfont {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bolder;
+}
+
+/* About Me Section */
+
+#About-Me{
+    padding: 5% 0;
+}
+
+#About-Me-Section-1{
+  padding: 1rem 28%;
+}
+
+.hrstyle1 {
+  color: #000;
+  opacity: 1;
+  width: 100%;
+}
+
+.about-hr{
+  margin-top: 1.5rem;
+}
+
+.About-Me-Font {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.about-font1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+#About-Service-Skills-Row-1{
+  padding: 2rem 5%;
+  transition-delay: : 2s;
+}
+
+.about-me-text{
+  font-size: 1rem;
+}
+
+.about-font2 {
+font-family: 'Raleway', sans-serif;
+}
+
+p#Service-Web.about-font2 {
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+}
+
+/* ================= Service Skills Section ================= */
+
+#Service-Skills{
+  background-color: #000;
+  color: white;
+  padding: 5% 0;
+}
+
+.hrstyle4{
+  color: white;
+  opacity: 1;
+}
+
+/* ================= Footer ================= */
+
+.p1 {
+  color: white;
+  text-align: center;
+  font-family: 'Josefin sans', cursive;
+  letter-spacing: 2px;
+}
+
+.pfooter {
+  margin: 0;
+}
+
+.mb-7{
+  padding-top: 200px;
+}
+
+/* ========================= MEDIA QUERY =======================  */
+
+@media screen and (max-width: 1366px) {
+
+  body{
+    display: block;
+  }
+
+  #Section-1{
+    flex-direction: column;
+  }
+
 }
