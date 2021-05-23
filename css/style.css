@@ -18,6 +18,13 @@ a {
   text-decoration: none;
 }
 
+/* ============================= Div Center Section =============================  */
+
+.divcenter{
+  display: flex;
+  justify-content: center;
+}
+
 /* ============================= Animation Section =============================  */
 .slidein {
   animation-duration: 4s;
@@ -196,8 +203,8 @@ a {
 }
 
 .intro-btn-pad {
-  padding: 2rem 0.75rem 0 3rem;
-  text-align: right;
+   padding-top: 2rem;
+  /* text-align: right; */
 }
 
 .intro-btn-pad1 {
@@ -299,7 +306,7 @@ p#Service-Web.about-font2 {
 .imageport1 {
   position: relative;
   height: 350px;
-  width: 33.333%;
+  width: 33.33%;
   /* padding-left: 1rem;
   padding-right: 1rem; */
 }
@@ -324,7 +331,8 @@ p#Service-Web.about-font2 {
 }
 
 .overlay1 {
-  margin-left: 1rem;
+  margin: 0 auto;
+  right: 0;
 }
 
 .text {
@@ -459,7 +467,10 @@ label.contactpadleft {
 }
 
 /* ========================= MEDIA QUERY =======================  */
-@media screen and (max-width: 1366px) {
+
+/* Max Width: 1200 px  */
+
+@media screen and (max-width: 1200px) {
   body {
     display: block;
   }
@@ -467,4 +478,45 @@ label.contactpadleft {
   #Section-1 {
     flex-direction: column;
   }
+
+.imageport1{
+  width: 100%;
+  margin-bottom: 2rem;
 }
+}
+
+/* Max Width: 992 px  */
+
+@media screen and (max-width: 992px) {
+
+}
+
+/* Max Width: 768 px  */
+
+@media screen and (max-width: 768px) {
+
+.imageport1{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+}
+
+/* Max Width: 576 px  */
+
+@media screen and (max-width: 576px) {
+
+}
+
+/* Less than Max Width: 576px  */
+
+@media screen and (min-width: 576px) {
+
+}
+
+/* xs <576px
+sm ≥576px
+md ≥768px
+lg ≥992px
+xl ≥1200px
+xxl ≥1400px */
