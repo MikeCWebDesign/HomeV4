@@ -309,6 +309,7 @@ p#Service-Web.about-font2 {
   width: 33.33%;
   /* padding-left: 1rem;
   padding-right: 1rem; */
+  margin-bottom: 1rem;
 }
 
 .imageport1:hover .overlay {
@@ -448,9 +449,15 @@ label.contactpadleft {
   opacity: 1;
 }
 
+.contact-pad-2{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
 /* ================= Footer ================= */
+
 .p1 {
-  color: #000;
+  color: #fff;
   text-align: center;
   font-family: 'Josefin sans', cursive;
   letter-spacing: 2px;
@@ -466,11 +473,35 @@ label.contactpadleft {
   padding-top: 200px;
 }
 
+.footer-section{
+    border-top: 1px solid #fff;
+}
+
+.social-margin{
+  margin: 9px;
+}
+
 /* ========================= MEDIA QUERY =======================  */
 
 /* Max Width: 1200 px  */
 
+@media screen and (max-width: 1680px){
+  .imageport1{
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Max Width: 1200 px  */
+
+@media screen and (max-width: 1440px){
+
+}
+
+/* Max Width: 1200 px  */
+
 @media screen and (max-width: 1200px) {
+
   body {
     display: block;
   }
@@ -483,6 +514,7 @@ label.contactpadleft {
   width: 100%;
   margin-bottom: 2rem;
 }
+
 }
 
 /* Max Width: 992 px  */
