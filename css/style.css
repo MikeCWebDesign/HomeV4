@@ -4,7 +4,6 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Stardos Stencil', cursive; */
-
 /* ============================= HTML Section ============================= */
 html, body {
   margin: 0;
@@ -20,46 +19,45 @@ a {
 }
 
 /* ============================= Animation Section =============================  */
-
-.slidein{
-
+.slidein {
   animation-duration: 4s;
   animation-name: slidein;
-
 }
 
 @keyframes slidein {
   0% {
-      opacity: 0;
-      transform: translateX(200px);
+    opacity: 0;
+    transform: translateX(200px);
   }
 
   80% {
-      transform: translateX(-10px);
+    transform: translateX(-10px);
   }
+
   100% {
-      opacity: 1;
-      transform: translate(0);
+    opacity: 1;
+    transform: translate(0);
   }
 }
 
-.slidein1{
+.slidein1 {
   animation-duration: 4s;
   animation-name: slidein1;
 }
 
 @keyframes slidein1 {
   0% {
-      opacity: 0;
-      transform: translateX(-100px);
+    opacity: 0;
+    transform: translateX(-100px);
   }
 
   80% {
-      transform: translateX(10px);
+    transform: translateX(10px);
   }
+
   100% {
-      opacity: 1;
-      transform: translate(0);
+    opacity: 1;
+    transform: translate(0);
   }
 }
 
@@ -69,9 +67,12 @@ a {
   width: 50%;
 }
 
-/* ============================= Padding Style Section =============================  */
+.borderstyle1 {
+  border: 1px solid #000;
+}
 
-.padstyle1{
+/* ============================= Padding Style Section =============================  */
+.padstyle1 {
   padding: 0 2rem;
 }
 
@@ -116,12 +117,12 @@ a {
   padding: 0 22%;
 }
 
-#nav-link{
+#nav-link {
   padding: 0 3rem;
   font-family: 'Bree Serif', sans-serif;
 }
 
-#nav-link, .logo-font{
+#nav-link, .logo-font {
   font-size: 1.2rem;
 }
 
@@ -151,7 +152,7 @@ a {
   height: 100%;
 }
 
-#intro-hrstyle-1{
+#intro-hrstyle-1 {
   padding-top: 2rem;
 }
 
@@ -185,15 +186,11 @@ a {
   margin-top: 7px;
 }
 
-#intro-hrstyle-2{
+#intro-hrstyle-2 {
   padding-top: 0.8rem;
 }
 
-
 /* Intro button */
-
-
-
 .three-column {
   width: 100%;
 }
@@ -223,7 +220,7 @@ a {
   width: 150px;
 }
 
-#Hire-Me{
+#Hire-Me {
   height: 35px;
   padding: 1px 0;
 }
@@ -234,12 +231,11 @@ a {
 }
 
 /* About Me Section */
-
-#About-Me{
-    padding: 5% 0;
+#About-Me {
+  padding: 5% 0;
 }
 
-#About-Me-Section-1{
+#About-Me-Section-1 {
   padding: 1rem 28%;
 }
 
@@ -249,7 +245,7 @@ a {
   width: 100%;
 }
 
-.about-hr{
+.about-hr {
   margin-top: 1.5rem;
 }
 
@@ -267,64 +263,208 @@ a {
   text-decoration: underline;
 }
 
-#About-Service-Skills-Row-1{
+#About-Service-Skills-Row-1 {
   padding: 2rem 5%;
   transition-delay: : 2s;
 }
 
-.about-me-text{
+.about-me-text {
   font-size: 1rem;
 }
 
 .about-font2 {
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 p#Service-Web.about-font2 {
-font-family: 'Raleway', sans-serif;
-font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 /* ================= Service Skills Section ================= */
-
-#Service-Skills{
+#Service-Skills {
   background-color: #000;
   color: white;
   padding: 5% 0;
 }
 
-.hrstyle4{
+.hrstyle4 {
   color: white;
   opacity: 1;
 }
 
-/* ================= Footer ================= */
+/* Portfolio Section */
+.imageport1 {
+  position: relative;
+  height: 350px;
+  width: 33.333%;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+}
 
-.p1 {
+.imageport1:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  opacity: 0;
+  border-radius: 2px;
+  background-image: linear-gradient(233deg, #716bf6, #5055df);
+  /* text-align: center; */
+  position: absolute;
+  width: 601px;
+  height: 350px;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  color: #fff;
+  transition: 1s ease;
+}
+
+.overlay1 {
+  margin-left: 1rem;
+}
+
+.text {
   color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#Portfolio {
+  background-color: #fff;
+  padding-bottom: 3rem;
+}
+
+.hrstyle2 {
+  color: #fff;
+  opacity: 1;
+  width: 100%;
+}
+
+#Portfolio-Section-1 {
+  padding: 5% 20%;
+}
+
+.portpadleft {
+  /* padding-left: 2%;
+  padding-right: 2%; */
+}
+
+/* ================= Contact Section ================= */
+
+#Contact-Me{
+  padding: 5% 0 5%;
+  background-color: black;
+}
+
+#Contact {
+
+  color: white;
+}
+
+.ht-102 {
+  /* height: 80vh; */
+}
+
+.Contact-Font-1 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
+
+.font4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.font5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.font6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+}
+
+label.contactpadleft {
+  padding-left: 25px;
+}
+
+.msght {
+  height: 200px !important;
+}
+
+.btnpadleft {
+  padding-left: 40%;
+}
+
+.btn-yellow {
+  background-color: #fec110;
+  border-color: #fec110;
+  color: white;
+}
+
+.btn-yellow:hover {
+  background-color: #fff;
+  border-color: #fec110;
+  color: #fec110;
+}
+
+.btnfont {
+  font-family: 'Josefin sans', cursive;
+}
+
+/* .pad-title {
+  padding: 5% 0;
+} */
+
+.hrstyle5{
+  opacity: 1;
+}
+
+/* ================= Footer ================= */
+.p1 {
+  color: #000;
   text-align: center;
   font-family: 'Josefin sans', cursive;
   letter-spacing: 2px;
+  padding: 0.5rem;
+  font-weight: bolder;
 }
 
 .pfooter {
   margin: 0;
 }
 
-.mb-7{
+.mb-7 {
   padding-top: 200px;
 }
 
 /* ========================= MEDIA QUERY =======================  */
-
 @media screen and (max-width: 1366px) {
-
-  body{
+  body {
     display: block;
   }
 
-  #Section-1{
+  #Section-1 {
     flex-direction: column;
   }
-
 }
