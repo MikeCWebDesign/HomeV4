@@ -418,6 +418,11 @@ p#Service-Web.about-font2 {
   padding-right: 2%; */
 }
 
+.imgpt1{
+  width: 600px;
+  height: 350px;
+}
+
 /* ================= Contact Section ================= */
 
 #Contact-Me {
@@ -646,6 +651,10 @@ label.contactpadleft {
 
     #Click-Here{
       font-size: 1.1rem;
+    }
+
+    #imgpt1{
+      width: 522px;
     }
 }
 
