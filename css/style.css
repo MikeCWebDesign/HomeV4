@@ -820,6 +820,12 @@ label.contactpadleft {
 }
 
 @media screen and (max-width: 375px) {
+
+  body, html {
+    width: auto;
+    overflow-x: hidden;
+  }
+
   #imgpt1 {
     width: 300px;
   }
