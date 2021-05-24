@@ -821,7 +821,15 @@ label.contactpadleft {
 
 @media screen and (max-width: 375px) {
   #imgpt1 {
-    width: 330px;
+    width: 300px;
+  }
+
+  #footer-col{
+    width: 5%;
+  }
+
+  #footer-col-main{
+    width: 90%;
   }
 }
 
