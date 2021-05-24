@@ -339,6 +339,7 @@ p#Service-Web.about-font2 {
 }
 
 /* ================= Service Skills Section ================= */
+
 #Service-Skills {
   background-color: #000;
   color: white;
@@ -663,7 +664,7 @@ label.contactpadleft {
   }
 }
 
-/* iphone X  */
+/* iphone XS Max  */
 @media screen and (max-width: 414px) {
 
   /* Introduction Section */
@@ -815,6 +816,12 @@ label.contactpadleft {
 
   .btnfont {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #imgpt1 {
+    width: 330px;
   }
 }
 
