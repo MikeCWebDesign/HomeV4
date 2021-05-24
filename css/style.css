@@ -10,7 +10,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: auto;
-  overflow: initial;
+  overflow-x: hidden;
   min-height: 100%;
 }
 
@@ -667,6 +667,11 @@ label.contactpadleft {
 /* iphone XS Max  */
 @media screen and (max-width: 414px) {
 
+  body, html {
+    width: auto;
+    overflow-x: hidden;
+  }
+
   /* Introduction Section */
   #intro-hrstyle-1 {
     width: 10%;
@@ -722,6 +727,7 @@ label.contactpadleft {
   }
 
   /* Service Skills Section */
+
   .Service-Skills-Font, .Portfolio-Font {
     font-size: 2rem;
     margin: 0;
@@ -753,6 +759,7 @@ label.contactpadleft {
   }
 
   /* Portfolio Section */
+
   #imgpt1 {
     height: 232px;
     width: 372px;
@@ -830,12 +837,26 @@ label.contactpadleft {
     width: 300px;
   }
 
+  #contact-hr{
+    width: 20%;
+    padding: 0;
+  }
+
+  #Contact-Title{
+    width: 60%;
+    padding: 0;
+  }
+
+  .pad-title {
+    padding: 5% 0 0;
+  }
+
   #footer-col{
-    width: 5%;
+    width: 10%;
   }
 
   #footer-col-main{
-    width: 90%;
+    width: 80%;
   }
 }
 
