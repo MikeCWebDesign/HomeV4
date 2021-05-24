@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
@@ -72,7 +72,6 @@ a:hover{
 }
 
 /* The typing effect */
-
 @keyframes typing {
   from {
     width: 0
@@ -84,7 +83,6 @@ a:hover{
 }
 
 /* The typewriter cursor effect */
-
 @keyframes blink-caret {
   from, to {
     border-color: transparent
@@ -222,7 +220,7 @@ a:hover{
 
 .intro-header2 {
   /* font-family: 'Bree Serif', cursive; */
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 4rem;
   font-style: none;
   text-align: center;
@@ -287,6 +285,7 @@ a:hover{
 }
 
 /* About Me Section */
+
 #About-Me {
   padding: 5% 0;
 }
@@ -301,11 +300,11 @@ a:hover{
   width: 100%;
 }
 
-.about-hr {
+.about-hr, .Service-hr {
   margin-top: 1.5rem;
 }
 
-.About-Me-Font {
+.About-Me-Font, .About-Me-Font1, .Service-Skills-Font, .Portfolio-Font {
   font-family: 'Bebas Neue', cursive;
   font-size: 4rem;
   letter-spacing: 5px;
@@ -418,13 +417,12 @@ p#Service-Web.about-font2 {
   padding-right: 2%; */
 }
 
-.imgpt1{
+.imgpt1 {
   width: 600px;
   height: 350px;
 }
 
 /* ================= Contact Section ================= */
-
 #Contact-Me {
   padding: 5% 0 5%;
   background-color: black;
@@ -442,6 +440,13 @@ p#Service-Web.about-font2 {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
+}
+
+.Contact-Me-Font1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 .font4 {
@@ -494,15 +499,16 @@ label.contactpadleft {
   font-family: 'Josefin sans', cursive;
 }
 
-/* .pad-title {
-  padding: 5% 0;
-} */
+.pad-title {
+  padding: 5% 15%;
+}
+
 .hrstyle5 {
   opacity: 1;
 }
 
-.contact-pad-1{
-    padding-bottom: 3rem;
+.contact-pad-1 {
+  padding-bottom: 3rem;
 }
 
 .contact-pad-2 {
@@ -510,11 +516,11 @@ label.contactpadleft {
   padding-right: 25%;
 }
 
-.contact-pad-3{
+.contact-pad-3 {
   padding: 0 10%;
 }
 
-.contact-pad-4{
+.contact-pad-4 {
   padding-bottom: 1rem;
 }
 
@@ -545,11 +551,8 @@ label.contactpadleft {
 }
 
 /* =========================================================================== */
-
 /* =============================== MEDIA QUERY =============================== */
-
 /* =========================================================================== */
-
 /* Max Width: 1200 px  */
 @media screen and (max-width: 1680px) {
   .imageport1 {
@@ -560,26 +563,25 @@ label.contactpadleft {
 
 /* Max Width: 1200 px  */
 @media screen and (max-width: 1440px) {
-  #Intro{
+  #Intro {
     padding: 7% 15%;
   }
 
-  #About-Me-Section-1{
+  #About-Me-Section-1 {
     padding: 5% 20%;
   }
 
-  p#Service-Web.about-font2{
+  p#Service-Web.about-font2 {
     font-size: 1.35rem;
   }
 
-  p.about-font2.about-me-text{
+  p.about-font2.about-me-text {
     font-size: 0.85rem;
   }
 
-  #Portfolio-Section-1{
+  #Portfolio-Section-1 {
     padding: 5% 14%;
   }
-
 }
 
 /* Max Width: 1200 px  */
@@ -600,11 +602,11 @@ label.contactpadleft {
 
 /* Max Width: 992 px  */
 @media screen and (max-width: 992px) {
-  #Intro{
+  #Intro {
     padding: 7% 10%;
   }
 
-  #About-Me-Section-1{
+  #About-Me-Section-1 {
     padding: 5% 10%;
   }
 }
@@ -618,47 +620,199 @@ label.contactpadleft {
 }
 
 /* Max Width: 576 px  */
-
 @media screen and (max-width: 576px) {
-  body, html{
+  body, html {
     width: 100%;
   }
 
-    p.intro-header{
-      font-size: 1.4rem;
-    }
+  p.intro-header {
+    font-size: 1.4rem;
+  }
 
-    #intro-hrstyle-1 {
-      padding: 0;
-    }
+  #intro-hrstyle-1 {
+    padding: 0;
+  }
 
-    #intro-hrstyle-2{
-      padding: 0.2rem;
-    }
+  #intro-hrstyle-2 {
+    padding: 0.2rem;
+  }
 
-    .intro-header2{
-      font-size: 2.7rem;
-    }
+  .intro-header2 {
+    font-size: 2.7rem;
+  }
 
-    .intro-header3{
-      font-size: 1.27rem;
-    }
+  .intro-header3 {
+    font-size: 1.27rem;
+  }
 
-    #Hire-Me{
-      font-size: 1.1rem;
-      padding: 5px;
-    }
+  #Hire-Me {
+    font-size: 1.1rem;
+    padding: 5px;
+  }
 
-    #Click-Here{
-      font-size: 1.1rem;
-    }
+  #Click-Here {
+    font-size: 1.1rem;
+  }
 
-    #imgpt1{
-      width: 522px;
-    }
+  #imgpt1 {
+    width: 522px;
+  }
 }
 
+/* iphone X  */
+@media screen and (max-width: 414px) {
 
+  /* Introduction Section */
+  #intro-hrstyle-1 {
+    width: 10%;
+  }
+
+  #Intro-Hi {
+    width: 80%;
+    padding: 0;
+  }
+
+  .intro-header2 {
+    font-size: 1.9rem;
+  }
+
+  #intro-hrstyle-2 {
+    width: 15%;
+    padding: 0;
+  }
+
+  #Intro-Skills {
+    width: 70%;
+  }
+
+  .intro-header {
+    width: 250px;
+  }
+
+  .intro-header3 {
+    font-size: 1.1rem;
+  }
+
+  #Hire-Me, #Click-Here {
+    font-size: 1.1rem;
+    width: 110px;
+  }
+
+  /* About Me Section */
+
+  #About-Me-Section-1 {
+    padding: 5% 4%;
+  }
+
+  .About-Me-Font {
+    font-size: 2.1rem;
+  }
+
+  .about-font1 {
+    font-size: 1.5rem;
+  }
+
+  #about-hr {
+    margin-top: 0.5rem;
+  }
+
+  /* Service Skills Section */
+  .Service-Skills-Font, .Portfolio-Font {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  #Service-hr {
+    /* margin-top: 25px; */
+    width: 10%;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+
+  #Service-Skills-Section-1 {
+    padding: 5% 10%;
+    margin: 0;
+  }
+
+  #Service-Skills-Font {
+    width: 80%;
+    padding: 0;
+  }
+
+  p#Service-Web.about-font2 {
+    font-size: 1.25rem;
+  }
+
+  .padstyle1 {
+    padding: 0 1rem;
+  }
+
+  /* Portfolio Section */
+  #imgpt1 {
+    height: 232px;
+    width: 372px;
+  }
+
+  .imageport1 {
+    height: auto;
+  }
+
+  .About-Me-Font1 {
+    font-size: 1.6rem;
+  }
+
+  .about-hr {
+    margin-top: 1rem;
+  }
+
+  #Portfolio-Section-1 {
+    padding: 5% 5%;
+  }
+
+  /* Contact Me Section */
+  #contact-hr {
+    margin-top: 0;
+  }
+
+  p.Contact-Font-1 {
+    font-size: 0.68rem;
+    padding: 0;
+  }
+
+  #Contact-Title {
+    margin: 0 !important;
+  }
+
+  p.font4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p.font5 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .pad-title {
+    padding: 5% 2% 0;
+    margin: 0;
+  }
+
+  .Contact-Me-Font1 {
+    font-size: 1.7rem;
+  }
+
+  div.btnpadleft {
+    /* margin: 0 50%; */
+    width: 100%;
+    margin-left: 30%;
+    padding: 0 0.75rem;
+  }
+
+  .btnfont {
+    font-size: 1rem;
+  }
+}
 
 /* xs <576px
 sm ≥576px
