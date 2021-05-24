@@ -18,9 +18,12 @@ a {
   text-decoration: none;
 }
 
-/* ============================= Div Center Section =============================  */
+a:hover{
+  color: white;
+}
 
-.divcenter{
+/* ============================= Div Center Section =============================  */
+.divcenter {
   display: flex;
   justify-content: center;
 }
@@ -66,6 +69,49 @@ a {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange
+  }
+}
+
+/* DEMO-SPECIFIC STYLES */
+.test1 {
+  color: #fff;
+  /* font-family: monospace; */
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 2s steps(40, end),
+    blink-caret .5s step-end infinite;
 }
 
 /* ============================= Border Style Section =============================  */
@@ -160,20 +206,23 @@ a {
 }
 
 #intro-hrstyle-1 {
-  padding-top: 2rem;
+  padding-top: 0.9rem;
 }
 
 .intro-header {
   /* font-family: 'Bree Serif', sans-serif; */
-  font-family: 'Bebas Neue', cursive;
-  font-size: 3.6rem;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: bolder;
   color: #fff;
   text-align: center;
   letter-spacing: 5px;
 }
 
 .intro-header2 {
-  font-family: 'Bree Serif', cursive;
+  /* font-family: 'Bree Serif', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
   font-size: 4rem;
   font-style: none;
   text-align: center;
@@ -203,7 +252,7 @@ a {
 }
 
 .intro-btn-pad {
-   padding-top: 2rem;
+  padding-top: 2rem;
   /* text-align: right; */
 }
 
@@ -371,13 +420,12 @@ p#Service-Web.about-font2 {
 
 /* ================= Contact Section ================= */
 
-#Contact-Me{
+#Contact-Me {
   padding: 5% 0 5%;
   background-color: black;
 }
 
 #Contact {
-
   color: white;
 }
 
@@ -444,18 +492,28 @@ label.contactpadleft {
 /* .pad-title {
   padding: 5% 0;
 } */
-
-.hrstyle5{
+.hrstyle5 {
   opacity: 1;
 }
 
-.contact-pad-2{
+.contact-pad-1{
+    padding-bottom: 3rem;
+}
+
+.contact-pad-2 {
   padding-left: 25%;
   padding-right: 25%;
 }
 
-/* ================= Footer ================= */
+.contact-pad-3{
+  padding: 0 10%;
+}
 
+.contact-pad-4{
+  padding-bottom: 1rem;
+}
+
+/* ================= Footer ================= */
 .p1 {
   color: #fff;
   text-align: center;
@@ -473,35 +531,54 @@ label.contactpadleft {
   padding-top: 200px;
 }
 
-.footer-section{
-    border-top: 1px solid #fff;
+.footer-section {
+  border-top: 1px solid #fff;
 }
 
-.social-margin{
+.social-margin {
   margin: 9px;
 }
 
-/* ========================= MEDIA QUERY =======================  */
+/* =========================================================================== */
+
+/* =============================== MEDIA QUERY =============================== */
+
+/* =========================================================================== */
 
 /* Max Width: 1200 px  */
-
-@media screen and (max-width: 1680px){
-  .imageport1{
+@media screen and (max-width: 1680px) {
+  .imageport1 {
     width: 50%;
     margin-bottom: 2rem;
   }
 }
 
 /* Max Width: 1200 px  */
+@media screen and (max-width: 1440px) {
+  #Intro{
+    padding: 7% 15%;
+  }
 
-@media screen and (max-width: 1440px){
+  #About-Me-Section-1{
+    padding: 5% 20%;
+  }
+
+  p#Service-Web.about-font2{
+    font-size: 1.35rem;
+  }
+
+  p.about-font2.about-me-text{
+    font-size: 0.85rem;
+  }
+
+  #Portfolio-Section-1{
+    padding: 5% 14%;
+  }
 
 }
 
 /* Max Width: 1200 px  */
-
 @media screen and (max-width: 1200px) {
-
   body {
     display: block;
   }
@@ -510,41 +587,69 @@ label.contactpadleft {
     flex-direction: column;
   }
 
-.imageport1{
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
+  .imageport1 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 
 /* Max Width: 992 px  */
-
 @media screen and (max-width: 992px) {
+  #Intro{
+    padding: 7% 10%;
+  }
 
+  #About-Me-Section-1{
+    padding: 5% 10%;
+  }
 }
 
 /* Max Width: 768 px  */
-
 @media screen and (max-width: 768px) {
-
-.imageport1{
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
+  .imageport1 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 
 /* Max Width: 576 px  */
 
 @media screen and (max-width: 576px) {
+  body, html{
+    width: 100%;
+  }
 
+    p.intro-header{
+      font-size: 1.4rem;
+    }
+
+    #intro-hrstyle-1 {
+      padding: 0;
+    }
+
+    #intro-hrstyle-2{
+      padding: 0.2rem;
+    }
+
+    .intro-header2{
+      font-size: 2.7rem;
+    }
+
+    .intro-header3{
+      font-size: 1.27rem;
+    }
+
+    #Hire-Me{
+      font-size: 1.1rem;
+      padding: 5px;
+    }
+
+    #Click-Here{
+      font-size: 1.1rem;
+    }
 }
 
-/* Less than Max Width: 576px  */
 
-@media screen and (min-width: 576px) {
-
-}
 
 /* xs <576px
 sm ≥576px
