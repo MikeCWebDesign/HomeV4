@@ -4,9 +4,7 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Stardos Stencil', cursive; */
-
 /* ============================= HTML Section ============================= */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -287,7 +285,6 @@ a:hover {
 }
 
 /* About Me Section */
-
 #About-Me {
   padding: 5% 0;
 }
@@ -341,14 +338,13 @@ p#Service-Web.about-font2 {
 }
 
 /* ================= Service Skills Section ================= */
-
 #Service-Skills {
   background-color: #000;
   color: white;
   padding: 5% 0;
 }
 
-#Service-Skills-Section-1{
+#Service-Skills-Section-1 {
   padding: 5% 20%;
 }
 
@@ -589,6 +585,10 @@ label.contactpadleft {
   #Portfolio-Section-1 {
     padding: 5% 14%;
   }
+
+  #nav-link {
+    padding: 1rem 3rem;
+  }
 }
 
 /* Max Width: 1200 px  */
@@ -604,6 +604,14 @@ label.contactpadleft {
   .imageport1 {
     width: 100%;
     margin-bottom: 2rem;
+  }
+
+  #Service-Skills-Section-1, #Portfolio-Section-1 {
+    padding: 5% 10%;
+  }
+
+  .Portfolio-Font {
+    font-size: 3.9rem;
   }
 }
 
@@ -664,11 +672,74 @@ label.contactpadleft {
   #imgpt1 {
     width: 522px;
   }
+
+  .pad-title {
+    padding: 5% 5% 3%;
+  }
+
+  .Contact-Me-Font1 {
+    font-size: 2.8rem;
+  }
+
+  p.Contact-Font-1 {
+    font-size: 1rem;
+  }
+
+  #contact-hr {
+    margin-top: 1rem;
+  }
+
+  p.font4 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+  p.font5 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .btnpadleft {
+    padding-left: 200px;
+  }
+
+  #About-Me-Section-1 {
+    padding: 5% 5%;
+  }
+
+  .About-Me-Font {
+    font-size: 3rem;
+  }
+
+  #Service-Skills-Section-1 {
+    padding: 5% 2% 3%;
+    margin: 0;
+  }
+
+  .Service-Skills-Font {
+    font-size: 2.2rem;
+  }
+
+  .Service-hr {
+    margin-top: 0.5rem
+  }
+
+  #About-Service-Skills-Row-1 {
+    padding: 1rem 5%
+  }
+
+  #Portfolio-Section-1 {
+    padding: 5% 5%;
+  }
+
+  .Portfolio-Font {
+    font-size: 3rem;
+  }
 }
 
 /* iphone XS Max  */
 @media screen and (max-width: 414px) {
-
   body, html {
     width: auto;
     overflow-x: hidden;
@@ -711,7 +782,6 @@ label.contactpadleft {
   }
 
   /* About Me Section */
-
   #About-Me-Section-1 {
     padding: 5% 4%;
   }
@@ -729,7 +799,6 @@ label.contactpadleft {
   }
 
   /* Service Skills Section */
-
   .Service-Skills-Font, .Portfolio-Font {
     font-size: 2rem;
     margin: 0;
@@ -761,7 +830,6 @@ label.contactpadleft {
   }
 
   /* Portfolio Section */
-
   #imgpt1 {
     height: 232px;
     width: 372px;
@@ -829,13 +897,12 @@ label.contactpadleft {
 }
 
 @media screen and (max-width: 375px) {
-
   body, html {
     width: auto;
     overflow-x: hidden;
   }
 
-  .intro-header{
+  .intro-header {
     font-size: 1rem;
   }
 
@@ -843,12 +910,12 @@ label.contactpadleft {
     width: 300px;
   }
 
-  #contact-hr{
+  #contact-hr {
     width: 20%;
     padding: 0;
   }
 
-  #Contact-Title{
+  #Contact-Title {
     width: 60%;
     padding: 0;
   }
@@ -857,11 +924,11 @@ label.contactpadleft {
     padding: 5% 0 0;
   }
 
-  #footer-col{
+  #footer-col {
     width: 10%;
   }
 
-  #footer-col-main{
+  #footer-col-main {
     width: 80%;
   }
 }
