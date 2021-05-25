@@ -753,7 +753,8 @@ label.contactpadleft {
 }
 
 /* iphone XS Max  */
-@media screen and (max-width: 424px) {
+
+@media screen and (max-width: 430px) {
   body, html {
     width: auto;
     overflow-x: hidden;
