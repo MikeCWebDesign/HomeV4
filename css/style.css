@@ -961,8 +961,9 @@ label.contactpadleft {
     width: 150px;
   }
 
-  #Hire-Me {
-    height: 38px;
+  #Hire-Me, #Click-Here {
+    height: 32px;
+    width: 110px;
   }
 }
 
