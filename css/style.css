@@ -792,8 +792,14 @@ label.contactpadleft {
   }
 
   #Hire-Me, #Click-Here {
-    font-size: 1.1rem;
+    font-size: 1rem;
     width: 110px;
+    padding: 5px;
+  }
+
+  .intro-btn-pad1, .intro-btn-pad {
+    padding: 0;
+    width: 174px;
   }
 
   /* About Me Section */
