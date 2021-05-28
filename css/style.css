@@ -956,6 +956,14 @@ label.contactpadleft {
   #footer-col-main {
     width: 90%;
   }
+
+  .intro-btn-pad, .intro-btn-pad1 {
+    width: 150px;
+  }
+
+  #Hire-Me {
+    height: 38px;
+  }
 }
 
 /* xs <576px
