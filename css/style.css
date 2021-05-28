@@ -127,6 +127,10 @@ a:hover {
   padding: 0 2rem;
 }
 
+.hrbdrpad {
+    padding: 0 15%;
+}
+
 /* ============================= Text-Decoration Section =============================  */
 .textcenter {
   text-align: center;
@@ -149,6 +153,12 @@ a:hover {
   color: #fff;
   opacity: 1;
   width: 100%;
+}
+
+.hrbrdr {
+  border-top: 1px dashed #fff;
+  opacity: 1;
+
 }
 
 /* ============================= Navigation Section =============================  */
@@ -527,6 +537,10 @@ label.contactpadleft {
   padding-bottom: 1rem;
 }
 
+#contact-hr {
+  display: none;
+}
+
 /* ================= Footer ================= */
 .p1 {
   color: #fff;
@@ -628,9 +642,73 @@ label.contactpadleft {
 
 /* Max Width: 768 px  */
 @media screen and (max-width: 768px) {
+
+  body, html {
+    height: auto;
+    width: auto;
+  }
+
+  /* Intro Section */
+
+  .intro-header {
+    font-size: 2rem;
+  }
+
+  .intro-header2 {
+    font-size: 3.5rem;
+  }
+
+  .intro-header3 {
+    font-size: 1.73rem;
+  }
+
+  #intro-hrstyle-1 {
+    padding-top: 0.4rem;
+  }
+
+  /* Service Skills Section */
+
+  .Service-Skills-Font {
+    font-size: 2.8rem;
+  }
+
+  .Service-hr {
+    margin-top: 1rem;
+  }
+
+  #Service-Skills-Section-1 {
+    padding: 5% 10% 2%;
+  }
+
+  div.padstyle1 {
+    padding: 0 7rem;
+    text-align: center;
+  }
+
+  /* Contact Me Section  */
+
+  .pad-title {
+    padding: 5% 1%;
+  }
+
+  p.font4 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2% 0;
+  }
+
+  p.font5, .form-control{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
   .imageport1 {
     width: 100%;
     margin-bottom: 2rem;
+  }
+
+  #contact-hr {
+    display: block;
   }
 }
 
@@ -945,6 +1023,10 @@ label.contactpadleft {
     padding: 0;
   }
 
+  div.col-12.padstyle1 {
+    padding: 0 5%;
+  }
+
   .pad-title {
     padding: 5% 0 0;
   }
@@ -965,6 +1047,19 @@ label.contactpadleft {
     height: 32px;
     width: 110px;
   }
+
+  .form-control, p.font5 {
+    font-size: 1rem;
+  }
+
+  #Contact-Intro {
+    margin: 0 !important;
+  }
+
+  p.font4 {
+    font-size: 1.3rem;
+  }
+
 }
 
 /* xs <576px
