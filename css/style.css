@@ -158,7 +158,6 @@ a:hover {
 .hrbrdr {
   border-top: 1px dashed #fff;
   opacity: 1;
-
 }
 
 /* ============================= Navigation Section =============================  */
@@ -537,7 +536,7 @@ label.contactpadleft {
   padding-bottom: 1rem;
 }
 
-#contact-hr {
+#contact-hr1 {
   display: none;
 }
 
@@ -651,7 +650,7 @@ label.contactpadleft {
   /* Intro Section */
 
   .intro-header {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .intro-header2 {
@@ -659,7 +658,7 @@ label.contactpadleft {
   }
 
   .intro-header3 {
-    font-size: 1.73rem;
+    font-size: 1.6rem;
   }
 
   #intro-hrstyle-1 {
