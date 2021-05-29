@@ -186,6 +186,12 @@ a:hover {
   font-size: 1.2rem;
 }
 
+#nav-link1 {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    font-family: 'Bree Serif', sans-serif;
+}
+
 /* ============================= Introduction Section =============================  */
 #Section-1 {
   margin-top: 2.54rem;
@@ -294,6 +300,7 @@ a:hover {
 }
 
 /* About Me Section */
+
 #About-Me {
   padding: 5% 0;
 }
@@ -347,6 +354,7 @@ p#Service-Web.about-font2 {
 }
 
 /* ================= Service Skills Section ================= */
+
 #Service-Skills {
   background-color: #000;
   color: white;
@@ -435,6 +443,7 @@ p#Service-Web.about-font2 {
 }
 
 /* ================= Contact Section ================= */
+
 #Contact-Me {
   padding: 5% 0 5%;
   background-color: black;
@@ -541,6 +550,7 @@ label.contactpadleft {
 }
 
 /* ================= Footer ================= */
+
 .p1 {
   color: #fff;
   text-align: center;
@@ -570,7 +580,13 @@ label.contactpadleft {
 /* =============================== MEDIA QUERY =============================== */
 /* =========================================================================== */
 /* Max Width: 1200 px  */
+
 @media screen and (max-width: 1680px) {
+
+  #Intro {
+    padding: 10rem 300px;
+  }
+
   .imageport1 {
     width: 50%;
     margin-bottom: 2rem;
@@ -1032,6 +1048,10 @@ label.contactpadleft {
 
   .intro-header, .intro-header3 {
     font-size: 1rem;
+  }
+
+  #nav-link {
+    padding: 1rem 0;
   }
 
   #imgpt1 {
